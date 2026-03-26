@@ -99,11 +99,8 @@ export default function Index() {
       <nav style={{ background: "#DA291C" }} className="sticky top-0 z-50 shadow-lg">
         <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
           <button onClick={() => setPage("home")} className="flex items-center gap-2 hover:scale-105 transition-transform">
-            <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <circle cx="22" cy="22" r="22" fill="#FFC72C"/>
-              <path d="M10 31V14.5C10 11.5 12 10 14.5 10C17 10 18.5 11.5 18.5 14.5V22C18.5 22 19.5 19 22 19C24.5 19 25.5 22 25.5 22V14.5C25.5 11.5 27 10 29.5 10C32 10 34 11.5 34 14.5V31H30V16C30 15 29.5 14 29.5 14C29.5 14 29 15 29 16V26H23.5V16C23.5 15 22 14.5 22 14.5C22 14.5 20.5 15 20.5 16V26H15V16C15 15 14.5 14 14.5 14C14.5 14 14 15 14 16V31H10Z" fill="#DA291C"/>
-            </svg>
-            <span className="text-white font-black text-xl tracking-tight font-fredoka">Макдоналдс</span>
+            <img src="https://cdn.poehali.dev/projects/cfdbccbc-0f1e-4798-93e8-7e749b1aa63e/files/025689b3-a9e6-4a4b-991f-85acfd265f47.jpg" alt="McDonald's" className="w-10 h-10 rounded-full object-cover shadow-md" />
+            <span className="text-white font-black text-xl tracking-tight font-fredoka">МокДоналдс</span>
           </button>
 
           <div className="hidden md:flex gap-1">
